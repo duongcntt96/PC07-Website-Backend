@@ -1,0 +1,21 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Trang chủ
+{% endblock %}
+
+{% block content %}
+
+{% for post in data %}
+<!-- 	<div><a href="/{{post.id}}">
+	<h3 class="title">{{ post.title }}</h3>
+	<h4 class="body">{{ post.body|safe|linebreaks }}</h4>
+	<h5>{{ post.create_at }}</h5>
+	</a></div> -->
+	{{ post.chu_de }}<br>
+	{{ post.tieu_de }}<br>
+	{{ post.noi_dung }}<br>
+
+{% endfor %}
+
+{% endblock %}

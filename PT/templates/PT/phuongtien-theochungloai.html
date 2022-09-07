@@ -1,0 +1,38 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Phương tiện chữa cháy và cứu nạn, cứu hộ
+{% endblock %}
+
+{% block content %}
+
+{% for chungloai in data %}
+	{% if chungloai.phuong_tien_set.all|length > 0 %}
+	<h3>{{ chungloai.ten }}</h3>
+	<table>
+		<tr style="font-weight: bold;">
+			<td class="col-sm-1"><center>Stt</center></td>
+			<td class="col-sm-3"><center>Phương tiện</center></td>
+			<td class="col-sm-1"><center>Số lượng</center></td>
+			<td class="col-sm-2"><center>Nơi bố trí</center></td>
+			<td class="col-sm-1.5"><center>Chất lượng</center></td>
+			<td class="col-sm-1.5"><center>Tình trạng</center></td>
+			<td class="col-sm-2"><center>Quản lý</center></td>
+		</tr>
+		{% for pt in chungloai.phuong_tien_set.all %}
+			{% if pt.noi_bo_tri.chung_loai != pt.chung_loai %}
+			<tr>
+				<td><center>{{ forloop.counter }}</center></td>
+				<td><a href="{% url 'phuongtien:info' pt.id %}">{{ pt.ten }}</a></td>
+				<td><center>{{ pt.so_luong }}</center></td>
+				<td><center>{{ pt.noi_bo_tri }}</center></td>
+				<td><center>{{ pt.chat_luong }}</center></td>
+				<td><center>{{ pt.trang_thai }}</center></td>
+				<td><center>{{ pt.nguoi_quan_ly }}</center></td>
+			</tr>
+			{% endif %}
+		{% endfor %}
+	</table>
+	{% endif %}
+{% endfor %}
+{% endblock %}

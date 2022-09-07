@@ -1,0 +1,41 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+{{ q }} - tìm kiếm
+{% endblock %}
+
+{% block content %}
+
+<!-- KẾT QUẢ TÌM KIẾM -->
+{% if info|length > 0 %}
+<div class="row">
+<h3> Tìm kiếm bởi: <span> {{ q }} </span></h3>
+<p> {{ info|length }} kết quả, tổng số lượng: <span> {{ total }} </span></p>
+</div>
+  <table>
+    <tr style="font-weight: bold;">
+      <td><center>Stt</center></td>
+      <td class="col-sm-3">Nơi bố trí</td>
+      <td class="col-sm-3">Tên phương tiện</td>
+      <td class="col-sm-2"><center>Số lượng</center></td>
+      <td class="col-sm-2"><center>Đvt</center></td>
+      <td class="col-sm-2"><center>Chất lượng</center></td>
+    </tr>
+    {% for pt in info %}
+    <tr>
+      <td><center><span class="mycount"></span></center></td>
+      <td style="padding: 0px 10px" >
+        <a href="{% url 'phuongtien:info' pt.noi_bo_tri.id %}">
+          {{ pt.noi_bo_tri.ten }} {{ pt.noi_bo_tri.bien_so }}
+        </a>
+      </td>
+      <td style="padding: 0px 10px" ><a href="{% url 'phuongtien:info' pt.id %}">{{ pt.ten }}</a></td>
+      <td><center>{{ pt.so_luong }}</center></td>
+      <td><center>{{ pt.don_vi_tinh }}</center></td>
+      <td><center>{{ pt.chat_luong }}</center></td>
+    </tr>
+    {% endfor %}
+  </table>
+{% endif %}
+
+{% endblock %}

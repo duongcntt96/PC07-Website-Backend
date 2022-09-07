@@ -1,0 +1,32 @@
+{% extends "home/base.html" %} {% block title %} Nhập phương tiện {% endblock %}
+{%block content %}
+
+<h4 style="color: green">Danh sách nhập kho</h4>
+<br />
+
+{%for pn in phieu_nhap%}
+<h4>{{pn.thoi_gian}}</h4>
+<h4>{{pn.kho_nhap}}</h4>
+<h4>Nguồn cấp: {{pn.nguon_cap}}</h4>
+<h4>Gồm {{pn.chi_tiet_phieu_nhap_set.all|length}} loại phương tiện:</h4>
+{%for pt in pn.chi_tiet_phieu_nhap_set.all%}
+<p>{{ forloop.counter }}. {{pt.phuong_tien}}: {{pt.so_luong}}</p>
+{%endfor %}
+<br />
+
+{%endfor %}
+    <h4 style="color: green">Danh sách phương tiện </h4>
+    <br />
+    {%for pt in phuong_tien_nhap%}
+    <p>{{pt.phuong_tien__ten}}: {{pt.so_luong}}</p>
+    {%endfor %}
+     {{phuong_tien_xuat}}
+     <br />
+     {{phuong_tien_nhap}}
+     <br />
+     {{tong_pt}}
+     <br />
+     {{combined_results}}
+    {% endblock %}
+  </span></span
+>

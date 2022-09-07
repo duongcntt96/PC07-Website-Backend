@@ -1,0 +1,18 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Văn bản pháp luật
+{% endblock %}
+
+{% block content %}
+
+{{ data.body|safe|linebreaks}}
+
+<h1>
+	Văn bản pháp luật
+</h1>
+
+{% for doc in data %}
+	<div><a href="/docs/{{doc.id}}" >{{ doc.description }}</a></div>
+{% endfor%}
+{% endblock %}

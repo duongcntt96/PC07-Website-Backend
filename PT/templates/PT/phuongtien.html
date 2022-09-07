@@ -1,0 +1,76 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Phương tiện chữa cháy và cứu nạn, cứu hộ
+{% endblock %}
+
+{% block content %}
+
+<h3><a href="to">
+	Theo tổ
+</a></h3>
+
+<h3><a href="{% url 'phuongtien:noibotri' %}">
+	Theo nơi bố trí
+</a></h3>
+
+<h3><a href="{% url 'phuongtien:chungloai' %}">
+	Theo chủng loại
+</a></h3>
+
+<h3><a href="{% url 'phuongtien:ten' %}">
+	Theo tên phương tiện
+</a></h3>
+
+<div>
+	<span>Nhập tên phương tiện:</span>
+	<input type="text" name="q" id="q" value="Xe" />
+	<button>Tìm kiếm</button>
+</div>
+<div id="data">
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function search(){
+  	$("#data").html("");
+    $.get("/phuongtien/search/?format=json&q="+$("#q").val(), function(data, status){
+    	if (data.length>0){
+	    	var $header = $('<tr>').append(
+			            $('<th>').text("Tên phương tiện"),
+			            $('<th>').text("Chủng loại"),
+			            $('<th>').text("Số lượng"),
+			            $('<th>').text("Đơn vị tính"),
+			            $('<th>').text("Nơi bố trí")
+			        )
+	    	$("#data").html($header);
+	    	var total = 0;
+		    $.each(data, function(i, item) {
+		    	total += item.fields.so_luong
+		        var $tr = $('<tr>').append(
+		            $('<td>').html('<a href="/phuongtien/'+item.pk+'">'+item.fields.ten+'</a>'),
+		            $('<td>').text(item.fields.chung_loai),
+		            $('<td>').text(item.fields.so_luong),
+		            $('<td>').text(item.fields.don_vi_tinh),
+		            $('<td>').text(item.fields.noi_bo_tri)
+		        ).appendTo('#data');
+	    	});
+	    	var $footer = $('<tr>').append(
+			            $('<th>').text("Tổng"),
+			            $('<td>').text(""),
+			             $('<th>').text(total),
+			            $('<td>').text("")
+			        )
+	    	$("#data").append($footer);
+    	}
+    });
+  }
+
+$(document).ready(function(){
+  $("input").keypress(search);
+  $("button").click(search);
+});
+</script>
+
+{% endblock %}

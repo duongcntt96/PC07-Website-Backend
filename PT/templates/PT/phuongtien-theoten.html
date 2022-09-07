@@ -1,0 +1,18 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Phương tiện chữa cháy và cứu nạn, cứu hộ
+{% endblock %}
+
+{% block content %}
+
+<h3>Danh mục phương tiện theo tên phương tiện</h3>
+
+{% for item in data %}
+<a target="bank" href="{% url 'phuongtien:search' %}?q={{ item.ten }}">
+	{{ item.ten }}
+</a>
+{{ item.c }}<br>
+{% endfor %}
+
+{% endblock %}

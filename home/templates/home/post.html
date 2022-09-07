@@ -1,0 +1,63 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Trang chủ
+{% endblock %}
+
+{% block content %}
+	<h3 class="title">{{ data.title }}</h3>
+
+	<input id="input" type="hidden" value="/static/audio/{{data.id}}.mp3">
+	<button id="play">Play</button>
+	<button id="pause">Pause</button>
+	<button id="downspeed">Chậm hơn</button>
+	<button id="upspeed">Nhanh hơn</button>
+	<span>Speed: </span>
+	<span id="speed">1.0</span>
+	<br><br>
+	<div class="body">
+		<p>{{ data.body|safe|linebreaks }}</p>
+	</div>
+	<h5>{{ data.create_at }}</h5>
+
+
+<script>
+
+const input = document.getElementById("input");
+const playButton = document.getElementById("play");
+const pauseButton = document.getElementById("pause");
+downspeedButton = document.getElementById("downspeed");
+const upspeedButton = document.getElementById("upspeed");
+const speed = document.getElementById("speed");
+
+var player;
+playButton.addEventListener("click", function() {
+	if (player){
+		player.play();
+	}
+	else {
+		if (input.value.length) {
+        let inputVal = input.value;
+        player = new Audio(inputVal);
+        player.crossOrigin = "anonymous";
+        player.addEventListener("canplaythrough", function() {
+            player.play();
+        })
+    }
+	}
+});
+pauseButton.addEventListener("click", function() {
+	player.pause();
+});
+downspeedButton.addEventListener("click", function() {
+	player.playbackRate=player.playbackRate-0.1;
+	speed.innerText=player.playbackRate.toFixed(1);
+});
+upspeedButton.addEventListener("click", function() {
+	player.playbackRate=player.playbackRate+0.1;
+	speed.innerText=player.playbackRate.toFixed(1);
+});
+
+</script>
+
+{% endblock %}

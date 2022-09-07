@@ -1,0 +1,72 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Phương tiện
+{% endblock %}
+
+{% block content %}
+
+{% for to in data %}
+	{% if to.phuong_tien_set.all|length > 0 %}
+	<h4>{{ forloop.counter }}. {{ to.ten }}</h4>
+	<p>{{ to.ten }} quản lý tổng số 
+	{% if to.xe|length > 0 %}
+		{{ to.xe|length }} xe, 
+	{% endif %}
+	{% if to.may|length > 0 %}
+		{{ to.may|length }} máy
+	{% endif %}
+	 cụ thể như sau:</p>
+	{% if to.xe|length > 0 %}
+	<div class="row">
+		<p> - Danh sách các xe:</p>
+		<table>
+			<tr>
+				<th class="col-sm-1"><center>Stt</center></th>
+				<th class="col-sm-3"><center>Chủng loại</center></th>
+				<th class="col-sm-2"><center>Biển kiểm soát</center></th>
+				<th class="col-sm-2"><center>Nhãn hiệu</center></th>
+				<th class="col-sm-2"><center>Chất lượng</center></th>
+				<th class="col-sm-2"><center>Trạng thái</center></th>
+			</tr>
+			{% for pt in to.xe %}
+			<tr>
+				<td><center>{{ forloop.counter }}</center></td>
+				<td>{{ pt.ten }}</td>
+				<td><center><a href="{% url 'phuongtien:info' pt.id %}">{{ pt.bien_so }}</a></center></td>
+				<td><center>{{ pt.nhan_hieu }}</center></td>
+				<td><center>{{ pt.chat_luong }}</center></td>
+				<td><center>{{ pt.trang_thai }}</center></td>
+			</tr>
+			{% endfor %}
+		</table>
+	</div>
+	{% endif %}
+	{% if to.may|length > 0 %}
+	<div class="row">
+		<p> - Danh sách các máy:</p>
+		<table>
+			<tr style="font-weight: bold;">
+				<th class="col-sm-1"><center>Stt</center></th>
+				<th class="col-sm-2"><center>Chủng loại</center></th>
+				<th class="col-sm-3"><center>Nhãn hiệu</center></th>
+				<th class="col-sm-2"><center>Chất lượng</center></th>
+				<th class="col-sm-2"><center>Trạng thái</center></th>
+				<th class="col-sm-2"><center> </center></th>
+			</tr>
+			{% for pt in to.may %}
+			<tr>
+				<td><center>{{ forloop.counter }}</center></td>
+				<td>{{ pt.chung_loai.ten }}</td>
+				<td><center><a href="{% url 'phuongtien:info' pt.id %}">{{ pt.ten }}</a></center></td>
+				<td><center>{{ pt.chat_luong }}</center></td>
+				<td><center>{{ pt.trang_thai }}</center></td>
+			</tr>
+			{% endfor %}
+		</table>
+	</div>
+	{% endif %}
+	{% endif %}
+{% endfor %}
+
+{% endblock %}

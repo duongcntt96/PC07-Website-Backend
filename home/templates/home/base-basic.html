@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  {% load static %}
+  <!--   <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css"> -->
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">
+  <script src="/static/admin/js/nav_sidebar.js" defer></script>
+  
+<style>
+
+  html,body{
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #banner {
+    background-image: url('/static/images/banner.jpg');
+    height: 145px;
+    background-size: cover;
+  }
+
+  menu {
+    padding: 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    font-size: 12pt;
+    font-family: arial;
+/*    font-style: italic;*/
+  }
+
+ul#menu, ul#menu ul#sub {
+    padding:0;
+    margin: 0;
+}
+ 
+ul#menu li {
+     list-style-type: none;    /* code này để bỏ các dấu chấm tròn*/
+     float: left;    /* code này để menu dàn hàng ngang*/
+     margin-right: 10px;    /* tạo lề cho các menu*/
+}
+ 
+ul#menu li a {
+text-decoration: none;
+background-color: #79aec8;
+padding: 5px;
+/*color: white;*/
+}
+ 
+ul#menu li {
+positon: relative;
+}
+ 
+ul#menu li ul#sub {
+display: none;
+position: absolute;
+width: 500px;
+margin-top: 6px;
+}
+ 
+ul#menu li ul#sub li {
+/*margin-top: 10px;*/
+margin-bottom: 0;
+width: 500px;
+background: red;
+}
+ 
+ul#menu li:hover ul#sub {
+display: block;
+ }
+
+</style>
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+<body class=" app-blog model-person change-list"
+  data-admin-utc-offset="0">
+<!-- Container -->
+<div id="container">
+<!-- Header -->
+    <div id="banner">
+    </div>
+
+    <div class="breadcrumbs">
+            <div class="container-fluid">
+              <ul id="menu">
+    <li><a href="/home">Trang chủ</a></li>
+    <li><a href="/about">Giới thiệu</a>
+          <ul id="sub">
+                 <li><a href="#">Lịch sử đơn vị</a></li>
+                 <li><a href="#">Thành tích đạt được</a></li>
+                 <li><a href="#">Sub Menu 3</a></li>
+          </ul>
+    </li>
+    <li><a href="/person">Bộ máy tổ chức</a></li>
+    <li><a href="#">Thủ tục hành chính</a></li>
+    <li><a href="#">Công tác Đảng</a>
+      <ul id="sub">
+        <li><a href="#">Sub Menu 1</a></li>
+        <li><a href="#">Sub Menu 2</a></li>
+        <li><a href="#">Sub Menu 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Phương án</a></li>
+    <li><a href="#">Huấn luyện</a></li>
+    <li><a href="#">Phương tiện</a></li>
+    <li><a href="#">Văn bản pháp luật</a></li>
+    <li><a href="#">Tài liệu</a></li>
+</ul>
+    </div>
+  </div>
+
+<!-- END Header -->
+
+
+<!-- Body -->
+<div class="main shifted" id="main">
+
+  <button class="sticky toggle-nav-sidebar" id="toggle-nav-sidebar" aria-label="Toggle navigation"></button>
+  <!-- Left view -->
+<!-- Navbar -->
+    <div class="sticky" id="nav-sidebar">
+        <menu>
+          <ul class="nav flex-column">
+            <li><a class="navbar-brand" href="/home">Lịch trực</a></li>
+            <li><a class="navbar-brand" href="/person">Lịch công tác</a></li>
+            <li><a class="navbar-brand" href="#">Tiếp nhận và xử lý tin báo</a></li>
+            <li><a class="navbar-brand" href="#">Tổng hợp báo cáo</a></li>
+            <li><a class="navbar-brand" href="/about">Góp ý</a></li>
+          </ul>
+        </menu>
+      </div>
+    <!-- Navbar END -->
+
+  <!-- END Left view -->
+
+  <div class="content">
+    <!-- Content -->
+    <div id="content" class="">
+      <div id="content-main">
+        <div class="container-fluid">
+          {% block content %}
+          {% endblock %}
+        </div>
+      </div> 
+    </div>
+  </div>
+
+  <br class="clear">
+</div>
+<!-- Body -->
+<div id="footer"></div>
+      </div>
+<!-- END Container -->
+</body>
+</html>
+

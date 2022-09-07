@@ -1,0 +1,29 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Phương tiện
+{% endblock %}
+
+{% block content %}
+
+<h3> Theo nơi bố trí</h3>
+
+<table>
+	<tr style="font-weight: bold;">
+		<td class="col-sm-1"><center>Stt</center></td>
+		<td class="col-sm-7"><center>Nơi bố trí</center></td>
+		<td class="col-sm-3"><center>Số lượng phương tiện bố trí</center></td>
+	</tr>
+{% for pt in data %}
+	{% if pt.noi_bo_tri %}
+		<tr>
+			<td><center>{{ forloop.counter }}</center></td>
+			<td><a href="{% url 'phuongtien:info' pt.noi_bo_tri %}">{{pt.noi_bo_tri__ten}}</a></td>
+			<td><center>{{pt.c}}</center></td>
+		</tr>
+	{% endif %}
+{% endfor %}
+
+</table>
+
+{% endblock %}

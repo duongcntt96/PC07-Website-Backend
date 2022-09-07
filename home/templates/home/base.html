@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="duong.ht96@gmail.com">	
+	<title>{% block title %}{% endblock %}</title>
+	{% load static %}
+	<link rel="icon" type="image/x-icon" href="/static/images/logo.png">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+	{% include "home/header.html" %}
+	<header id="head" class="secondary"></header>
+	<!-- container -->
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a id="top" href="#bottom">Home</a></li>
+			<li class="active">{% block root_path %}{% endblock %}</li>
+		</ol>
+		<div id="content">
+			<!-- Article main content -->
+			<article class="col-sm-12 maincontent" style="text-align: justify;
+  text-justify: inter-word;">
+				{% block content %}
+				{% endblock %}		
+			</article>
+			<!-- /Article -->
+		</div>
+	</div>
+	<!-- /container -->
+	{% include "home/footer.html" %}
+</body>
+</html>

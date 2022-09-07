@@ -1,0 +1,4793 @@
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Tms Rmn";
+	panose-1:2 2 6 3 4 5 5 2 3 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Helv;
+	panose-1:2 11 6 4 2 2 2 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"New York";
+	panose-1:2 4 5 3 6 5 6 2 3 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:System;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"ＭＳ 明朝";
+	mso-font-charset:128;
+	mso-generic-font-family:roman;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;
+	mso-font-alt:바탕;
+	mso-font-charset:129;
+	mso-generic-font-family:auto;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 151388160 16 0 524288 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 1 6 1 0 1 1 1 1 1;
+	mso-font-alt:新細明體;
+	mso-font-charset:136;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 134742016 16 0 1048576 0;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;
+	mso-font-alt:"ＭＳ ゴシック";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:Dotum;
+	panose-1:2 11 6 0 0 1 1 1 1 1;
+	mso-font-alt:돋움;
+	mso-font-charset:129;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 151388160 16 0 524288 0;}
+@font-face
+	{font-family:SimHei;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:黑体;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+@font-face
+	{font-family:MingLiU;
+	panose-1:2 1 6 9 0 1 1 1 1 1;
+	mso-font-alt:細明體;
+	mso-font-charset:136;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134742016 16 0 1048576 0;}
+@font-face
+	{font-family:Mincho;
+	panose-1:2 2 6 9 4 3 5 8 3 5;
+	mso-font-alt:明朝;
+	mso-font-charset:128;
+	mso-generic-font-family:roman;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;
+	mso-font-alt:굴림;
+	mso-font-charset:129;
+	mso-generic-font-family:roman;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 151388160 16 0 524288 0;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Angsana New";
+	panose-1:2 2 6 3 5 4 5 2 3 4;
+	mso-font-charset:222;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:16777217 0 0 0 65536 0;}
+@font-face
+	{font-family:"Cordia New";
+	panose-1:2 11 3 4 2 2 2 2 2 4;
+	mso-font-charset:222;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:16777217 0 0 0 65536 0;}
+@font-face
+	{font-family:Mangal;
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:8192 0 0 0 0 0;}
+@font-face
+	{font-family:Latha;
+	panose-1:2 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:262144 0 0 0 0 0;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:12583555 0 0 0 13 0;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Raavi;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Shruti;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Sendnya;
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Gautami;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Tunga;
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"Estrangelo Edessa";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"Yu Gothic";
+	panose-1:2 11 4 0 0 0 0 0 0 0;
+	mso-font-alt:游ゴシック;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:等线;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 2048 0 0 159 0;}
+@font-face
+	{font-family:"Microsoft Sans Serif";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-452972801 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536869121 64767 1 0 415 0;}
+@font-face
+	{font-family:Garamond;
+	panose-1:2 2 4 4 3 3 1 1 8 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+@font-face
+	{font-family:Impact;
+	panose-1:2 11 8 6 3 9 2 5 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:CordiaUPC;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2130706429 0 0 0 65537 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
+@font-face
+	{font-family:David;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:2051 0 0 0 33 0;}
+@font-face
+	{font-family:"Bookman Old Style";
+	panose-1:2 5 6 4 5 5 5 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Lucida Sans Unicode";
+	panose-1:2 11 6 2 3 5 4 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147480833 14699 0 0 191 0;}
+@font-face
+	{font-family:FrankRuehl;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:2051 0 0 0 33 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	color:black;
+	mso-ansi-language:VI;
+	mso-fareast-language:VI;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	color:#0066CC;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.Bodytext7
+	{mso-style-name:"Body text \(7\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(7\)1";
+	mso-ansi-font-size:32.0pt;
+	mso-bidi-font-size:32.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext70
+	{mso-style-name:"Body text \(7\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:32.0pt;
+	mso-bidi-font-size:32.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;
+	text-underline:single;}
+span.Bodytext8
+	{mso-style-name:"Body text \(8\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(8\)";
+	mso-ansi-font-size:17.0pt;
+	mso-bidi-font-size:17.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-hansi-font-family:Georgia;
+	mso-bidi-font-family:Georgia;
+	letter-spacing:0pt;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext8SmallCaps
+	{mso-style-name:"Body text \(8\) + Small Caps";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:17.0pt;
+	mso-bidi-font-size:17.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-hansi-font-family:Georgia;
+	mso-bidi-font-family:Georgia;
+	font-variant:small-caps;
+	letter-spacing:0pt;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2
+	{mso-style-name:"Body text \(2\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext3
+	{mso-style-name:"Body text \(3\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(3\)";
+	mso-ansi-font-size:4.5pt;
+	mso-bidi-font-size:4.5pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext355pt
+	{mso-style-name:"Body text \(3\) + 5\.5 pt\,Not Bold\,Body text \(4\) + 20 pt\,Spacing 0 pt4\,Body text \(2\) + Tahoma5\,10 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:5.5pt;
+	mso-bidi-font-size:5.5pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading4
+	{mso-style-name:"Heading \#4_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#4";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext4
+	{mso-style-name:"Body text \(4\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(4\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext5
+	{mso-style-name:"Body text \(5\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(5\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext6
+	{mso-style-name:"Body text \(6\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(6\)1";
+	mso-ansi-font-size:8.5pt;
+	mso-bidi-font-size:8.5pt;
+	mso-font-width:70%;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext60
+	{mso-style-name:"Body text \(6\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.5pt;
+	mso-bidi-font-size:8.5pt;
+	mso-font-width:70%;
+	text-decoration:underline;
+	text-underline:single;}
+span.Bodytext20
+	{mso-style-name:"Body text \(2\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(2\)1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Bold
+	{mso-style-name:"Body text \(2\) + Bold";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext4Tahoma
+	{mso-style-name:"Body text \(4\) + Tahoma\,8\.5 pt\,Not Bold2\,Scale 70%\,Body text \(29\) + Times New Roman\,25 pt\,Scale 60%\,Body text \(2\) + 12 pt\,Table caption \(8\) + Segoe UI\,Not Bold4\,Spacing 0 pt8\,Body text \(53\) + 8\.5 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.5pt;
+	mso-bidi-font-size:8.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-font-width:70%;
+	font-weight:bold;
+	text-decoration:underline;
+	text-underline:single;}
+span.Bodytext4NotBold
+	{mso-style-name:"Body text \(4\) + Not Bold\,Italic\,Italic14\,Spacing 0 pt11";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;
+	text-underline:single;}
+span.Heading32
+	{mso-style-name:"Heading \#3 \(2\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(2\)";
+	mso-ansi-font-size:15.0pt;
+	mso-bidi-font-size:15.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext219pt
+	{mso-style-name:"Body text \(2\) + 19 pt\,Bold\,Spacing 0 pt\,Body text \(31\) + 10 pt\,Spacing 0 pt10";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:19.0pt;
+	mso-bidi-font-size:19.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext4NotBold2
+	{mso-style-name:"Body text \(4\) + Not Bold2\,Italic1\,Body text \(2\) + 5 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading33
+	{mso-style-name:"Heading \#3 \(3\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(3\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext22
+	{mso-style-name:"Body text \(2\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-decoration:underline;
+	text-underline:single;}
+span.Heading34
+	{mso-style-name:"Heading \#3 \(4\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(4\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Arial Narrow",sans-serif;
+	mso-ascii-font-family:"Arial Narrow";
+	mso-hansi-font-family:"Arial Narrow";
+	mso-bidi-font-family:"Arial Narrow";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading3
+	{mso-style-name:"Heading \#3_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading35
+	{mso-style-name:"Heading \#3 \(5\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(5\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext9
+	{mso-style-name:"Body text \(9\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(9\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Italic
+	{mso-style-name:"Body text \(2\) + Italic\,Spacing 1 pt\,Body text \(2\) + 10\.5 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext10
+	{mso-style-name:"Body text \(10\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(10\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading36
+	{mso-style-name:"Heading \#3 \(6\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(6\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Microsoft Sans Serif",sans-serif;
+	mso-ascii-font-family:"Microsoft Sans Serif";
+	mso-hansi-font-family:"Microsoft Sans Serif";
+	mso-bidi-font-family:"Microsoft Sans Serif";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext11
+	{mso-style-name:"Body text \(11\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(11\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Headingnumber4
+	{mso-style-name:"Heading number \#4_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading number \#4";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext4NotBold1
+	{mso-style-name:"Body text \(4\) + Not Bold1";
+	mso-style-unhide:no;
+	mso-style-parent:"Body text \(4\)_";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext12
+	{mso-style-name:"Body text \(12\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(12\)";
+	mso-ansi-font-size:19.0pt;
+	mso-bidi-font-size:19.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext1214pt
+	{mso-style-name:"Body text \(12\) + 14 pt\,Not Bold1\,Body text \(18\) + 11 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading4NotBold
+	{mso-style-name:"Heading \#4 + Not Bold";
+	mso-style-unhide:no;
+	mso-style-parent:"Heading \#4_";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+p.Bodytext71, li.Bodytext71, div.Bodytext71
+	{mso-style-name:"Body text \(7\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(7\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:32.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	font-weight:bold;
+	font-style:italic;}
+p.Bodytext80, li.Bodytext80, div.Bodytext80
+	{mso-style-name:"Body text \(8\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(8\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:17.0pt;
+	font-family:"Georgia",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;
+	font-style:italic;}
+p.Bodytext21, li.Bodytext21, div.Bodytext21
+	{mso-style-name:"Body text \(2\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(2\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:16.35pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext30, li.Bodytext30, div.Bodytext30
+	{mso-style-name:"Body text \(3\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(3\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:5.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:4.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading40, li.Heading40, div.Heading40
+	{mso-style-name:"Heading \#4";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#4_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-66.0pt;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	mso-outline-level:4;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext40, li.Bodytext40, div.Bodytext40
+	{mso-style-name:"Body text \(4\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(4\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext50, li.Bodytext50, div.Bodytext50
+	{mso-style-name:"Body text \(5\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(5\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Bodytext61, li.Bodytext61, div.Bodytext61
+	{mso-style-name:"Body text \(6\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(6\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:8.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-width:70%;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Heading320, li.Heading320, div.Heading320
+	{mso-style-name:"Heading \#3 \(2\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(2\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:15.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Heading330, li.Heading330, div.Heading330
+	{mso-style-name:"Heading \#3 \(3\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(3\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Heading340, li.Heading340, div.Heading340
+	{mso-style-name:"Heading \#3 \(4\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(4\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Arial Narrow",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.Heading30, li.Heading30, div.Heading30
+	{mso-style-name:"Heading \#3";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;}
+p.Heading350, li.Heading350, div.Heading350
+	{mso-style-name:"Heading \#3 \(5\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(5\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;}
+p.Bodytext90, li.Bodytext90, div.Bodytext90
+	{mso-style-name:"Body text \(9\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(9\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;}
+p.Bodytext100, li.Bodytext100, div.Bodytext100
+	{mso-style-name:"Body text \(10\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(10\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	font-weight:bold;}
+p.Heading360, li.Heading360, div.Heading360
+	{mso-style-name:"Heading \#3 \(6\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(6\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Microsoft Sans Serif",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.Bodytext110, li.Bodytext110, div.Bodytext110
+	{mso-style-name:"Body text \(11\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(11\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Headingnumber40, li.Headingnumber40, div.Headingnumber40
+	{mso-style-name:"Heading number \#4";
+	mso-style-unhide:no;
+	mso-style-link:"Heading number \#4_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext120, li.Bodytext120, div.Bodytext120
+	{mso-style-name:"Body text \(12\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(12\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:19.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.DefaultParagraphFontParaCharCharCharCharChar, li.DefaultParagraphFontParaCharCharCharCharChar, div.DefaultParagraphFontParaCharCharCharCharChar
+	{mso-style-name:"Default Paragraph Font Para Char Char Char Char Char";
+	mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:130%;
+	mso-pagination:widow-orphan;
+	tab-stops:57.6pt;
+	font-size:13.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.ConfidentialPageDate, li.ConfidentialPageDate, div.ConfidentialPageDate
+	{mso-style-name:"Confidential  Page \#  Date";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.Bodytext14
+	{mso-style-name:"Body text \(14\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(14\)";
+	mso-ansi-font-size:7.0pt;
+	mso-bidi-font-size:7.0pt;
+	font-family:"Century Gothic",sans-serif;
+	mso-ascii-font-family:"Century Gothic";
+	mso-hansi-font-family:"Century Gothic";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Heading419pt
+	{mso-style-name:"Heading \#4 + 19 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:19.0pt;
+	mso-bidi-font-size:19.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext13
+	{mso-style-name:"Body text \(13\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(13\)";
+	mso-ansi-font-size:5.0pt;
+	mso-bidi-font-size:5.0pt;
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-hansi-font-family:Consolas;
+	mso-bidi-language:AR-SA;}
+span.Bodytext15
+	{mso-style-name:"Body text \(15\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(15\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext16
+	{mso-style-name:"Body text \(16\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(16\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Garamond",serif;
+	mso-ascii-font-family:Garamond;
+	mso-hansi-font-family:Garamond;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Heading37
+	{mso-style-name:"Heading \#3 \(7\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(7\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext17
+	{mso-style-name:"Body text \(17\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(17\)";
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.Bodytext18
+	{mso-style-name:"Body text \(18\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(18\)";
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext5Bold
+	{mso-style-name:"Body text \(5\) + Bold\,Not Italic\,Not Italic9";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading38
+	{mso-style-name:"Heading \#3 \(8\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(8\)";
+	mso-ansi-font-size:15.0pt;
+	mso-bidi-font-size:15.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext19
+	{mso-style-name:"Body text \(19\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(19\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Heading39
+	{mso-style-name:"Heading \#3 \(9\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(9\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext220pt
+	{mso-style-name:"Body text \(2\) + 20 pt\,Spacing 0 pt5\,Bold10\,Spacing 0 pt14\,Body text \(2\) + Tahoma7\,15 pt2\,Bold6";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext200
+	{mso-style-name:"Body text \(20\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(20\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Picturecaption2
+	{mso-style-name:"Picture caption \(2\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Picture caption \(2\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Picturecaption
+	{mso-style-name:"Picture caption_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Picture caption";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext210
+	{mso-style-name:"Body text \(21\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(21\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext220
+	{mso-style-name:"Body text \(22\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(22\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Picturecaption3
+	{mso-style-name:"Picture caption \(3\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext23
+	{mso-style-name:"Body text \(23\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-1.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Italic2
+	{mso-style-name:"Body text \(2\) + Italic2\,Spacing 1 pt2\,Spacing -2 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:1.0pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext5Bold2
+	{mso-style-name:"Body text \(5\) + Bold2\,Not Italic2\,Body text \(17\) + 11\.5 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext25
+	{mso-style-name:"Body text \(25\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(25\)";
+	mso-ansi-font-size:4.0pt;
+	mso-bidi-font-size:4.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.Picturecaption5
+	{mso-style-name:"Picture caption \(5\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Picture caption \(5\)";
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext420pt1
+	{mso-style-name:"Body text \(4\) + 20 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext5Spacing-1pt
+	{mso-style-name:"Body text \(5\) + Spacing -1 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-1.0pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading310
+	{mso-style-name:"Heading \#3 \(10\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(10\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext24
+	{mso-style-name:"Body text \(24\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(24\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext52
+	{mso-style-name:"Body text \(5\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	text-decoration:underline;
+	text-underline:single;}
+span.Bodytext2Tahoma
+	{mso-style-name:"Body text \(2\) + Tahoma\,7\.5 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-font-width:100%;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Garamond
+	{mso-style-name:"Body text \(2\) + Garamond\,10 pt\,Spacing 4 pt\,Body text \(2\) + CordiaUPC";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Garamond",serif;
+	mso-ascii-font-family:Garamond;
+	mso-hansi-font-family:Garamond;
+	mso-bidi-font-family:Garamond;
+	letter-spacing:4.0pt;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Tahoma2
+	{mso-style-name:"Body text \(2\) + Tahoma2\,15 pt\,Spacing -1 pt\,Body text \(2\) + 6\.5 pt\,Italic13\,Heading \#4 \(4\) + Tahoma\,Not Bold3\,Scale 90%\,4 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:15.0pt;
+	mso-bidi-font-size:15.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:-1.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Tahoma1
+	{mso-style-name:"Body text \(2\) + Tahoma1\,15 pt1\,Small Caps\,Spacing -1 pt1\,Body text \(28\) + 19 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:15.0pt;
+	mso-bidi-font-size:15.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	font-variant:small-caps;
+	letter-spacing:-1.0pt;
+	text-decoration:none;
+	text-underline:none;}
+span.Picturecaption4
+	{mso-style-name:"Picture caption \(4\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Picture caption \(4\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Tablecaption
+	{mso-style-name:"Table caption_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;}
+span.Tablecaption12pt
+	{mso-style-name:"Table caption + 12 pt\,Bold5\,Body text \(2\) + CordiaUPC1\,19 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Tablecaption2
+	{mso-style-name:"Table caption \(2\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(2\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext26
+	{mso-style-name:"Body text \(26\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(26\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext27
+	{mso-style-name:"Body text \(27\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(27\)";
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext32
+	{mso-style-name:"Body text \(32\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(32\)";
+	mso-ansi-font-size:15.0pt;
+	mso-bidi-font-size:15.0pt;
+	font-family:"Impact",sans-serif;
+	mso-ascii-font-family:Impact;
+	mso-hansi-font-family:Impact;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext32CordiaUPC
+	{mso-style-name:"Body text \(32\) + CordiaUPC\,20 pt\,Bold4\,Body text \(31\) + 9\.5 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-font-family:CordiaUPC;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext33
+	{mso-style-name:"Body text \(33\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(33\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Tablecaption3
+	{mso-style-name:"Table caption \(3\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(3\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext2Bold2
+	{mso-style-name:"Body text \(2\) + Bold2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading311
+	{mso-style-name:"Heading \#3 \(11\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(11\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext28
+	{mso-style-name:"Body text \(28\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(28\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Heading42
+	{mso-style-name:"Heading \#4 \(2\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#4 \(2\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Heading43
+	{mso-style-name:"Heading \#4 \(3\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#4 \(3\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext42
+	{mso-style-name:"Body text \(4\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext29
+	{mso-style-name:"Body text \(29\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(29\)";
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext300
+	{mso-style-name:"Body text \(30\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(30\)";
+	mso-ansi-font-size:9.5pt;
+	mso-bidi-font-size:9.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext30TimesNewRoman
+	{mso-style-name:"Body text \(30\) + Times New Roman\,14 pt\,Heading \#4 \(4\) + Tahoma1\,Scale 100%";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext230
+	{mso-style-name:"Body text \(23\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(23\)1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:-1.0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext23NotItalic
+	{mso-style-name:"Body text \(23\) + Not Italic\,Spacing 0 pt3\,Spacing 0 pt15\,Body text \(2\) + Tahoma4\,13 pt2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext23Spacing0pt
+	{mso-style-name:"Body text \(23\) + Spacing 0 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext31
+	{mso-style-name:"Body text \(31\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(31\)";
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Heading312
+	{mso-style-name:"Heading \#3 \(12\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(12\)";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Impact",sans-serif;
+	mso-ascii-font-family:Impact;
+	mso-hansi-font-family:Impact;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext219pt1
+	{mso-style-name:"Body text \(2\) + 19 pt1\,Bold3\,Spacing 0 pt2\,Body text \(23\) + 10 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:19.0pt;
+	mso-bidi-font-size:19.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext5Spacing0pt
+	{mso-style-name:"Body text \(5\) + Spacing 0 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext5Bold1
+	{mso-style-name:"Body text \(5\) + Bold1\,Not Italic1\,Not Italic3";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2SmallCaps
+	{mso-style-name:"Body text \(2\) + Small Caps";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-variant:small-caps;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Italic1
+	{mso-style-name:"Body text \(2\) + Italic1\,Spacing 0 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Picturecaption30
+	{mso-style-name:"Picture caption \(3\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Picture caption \(3\)1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Picturecaption32
+	{mso-style-name:"Picture caption \(3\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading313
+	{mso-style-name:"Heading \#3 \(13\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(13\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Tablecaption4
+	{mso-style-name:"Table caption \(4\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(4\)";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext29pt
+	{mso-style-name:"Body text \(2\) + 9 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2115pt
+	{mso-style-name:"Body text \(2\) + 11\.5 pt\,Bold2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:11.5pt;
+	mso-bidi-font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Bold1
+	{mso-style-name:"Body text \(2\) + Bold1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2115pt1
+	{mso-style-name:"Body text \(2\) + 11\.5 pt1\,Bold1\,Spacing 1 pt1\,Body text \(62\) + Times New Roman\,13 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:11.5pt;
+	mso-bidi-font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:1.0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+p.Bodytext140, li.Bodytext140, div.Bodytext140
+	{mso-style-name:"Body text \(14\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(14\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:7.0pt;
+	font-family:"Century Gothic",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+p.Bodytext41, li.Bodytext41, div.Bodytext41
+	{mso-style-name:"Body text \(4\)1";
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:VI;
+	font-weight:bold;}
+p.Bodytext130, li.Bodytext130, div.Bodytext130
+	{mso-style-name:"Body text \(13\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(13\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:5.0pt;
+	font-family:Consolas;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext150, li.Bodytext150, div.Bodytext150
+	{mso-style-name:"Body text \(15\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(15\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext160, li.Bodytext160, div.Bodytext160
+	{mso-style-name:"Body text \(16\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(16\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Garamond",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	font-weight:bold;}
+p.Heading370, li.Heading370, div.Heading370
+	{mso-style-name:"Heading \#3 \(7\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(7\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;}
+p.Bodytext170, li.Bodytext170, div.Bodytext170
+	{mso-style-name:"Body text \(17\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(17\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.45pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;
+	font-style:italic;}
+p.Bodytext180, li.Bodytext180, div.Bodytext180
+	{mso-style-name:"Body text \(18\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(18\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-6.0pt;
+	line-height:12.45pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext51, li.Bodytext51, div.Bodytext51
+	{mso-style-name:"Body text \(5\)1";
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:VI;
+	font-style:italic;}
+p.Heading380, li.Heading380, div.Heading380
+	{mso-style-name:"Heading \#3 \(8\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(8\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:15.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext190, li.Bodytext190, div.Bodytext190
+	{mso-style-name:"Body text \(19\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(19\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading390, li.Heading390, div.Heading390
+	{mso-style-name:"Heading \#3 \(9\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(9\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext201, li.Bodytext201, div.Bodytext201
+	{mso-style-name:"Body text \(20\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(20\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Picturecaption20, li.Picturecaption20, div.Picturecaption20
+	{mso-style-name:"Picture caption \(2\)";
+	mso-style-unhide:no;
+	mso-style-link:"Picture caption \(2\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Picturecaption0, li.Picturecaption0, div.Picturecaption0
+	{mso-style-name:"Picture caption";
+	mso-style-unhide:no;
+	mso-style-link:"Picture caption_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext211, li.Bodytext211, div.Bodytext211
+	{mso-style-name:"Body text \(21\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(21\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext221, li.Bodytext221, div.Bodytext221
+	{mso-style-name:"Body text \(22\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(22\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Picturecaption31, li.Picturecaption31, div.Picturecaption31
+	{mso-style-name:"Picture caption \(3\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Picture caption \(3\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext231, li.Bodytext231, div.Bodytext231
+	{mso-style-name:"Body text \(23\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(23\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-1.0pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Bodytext250, li.Bodytext250, div.Bodytext250
+	{mso-style-name:"Body text \(25\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(25\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:4.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;
+	font-style:italic;}
+p.Picturecaption50, li.Picturecaption50, div.Picturecaption50
+	{mso-style-name:"Picture caption \(5\)";
+	mso-style-unhide:no;
+	mso-style-link:"Picture caption \(5\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading3100, li.Heading3100, div.Heading3100
+	{mso-style-name:"Heading \#3 \(10\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(10\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext240, li.Bodytext240, div.Bodytext240
+	{mso-style-name:"Body text \(24\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(24\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Picturecaption40, li.Picturecaption40, div.Picturecaption40
+	{mso-style-name:"Picture caption \(4\)";
+	mso-style-unhide:no;
+	mso-style-link:"Picture caption \(4\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Tablecaption0, li.Tablecaption0, div.Tablecaption0
+	{mso-style-name:"Table caption";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Tablecaption20, li.Tablecaption20, div.Tablecaption20
+	{mso-style-name:"Table caption \(2\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(2\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Bodytext260, li.Bodytext260, div.Bodytext260
+	{mso-style-name:"Body text \(26\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(26\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext270, li.Bodytext270, div.Bodytext270
+	{mso-style-name:"Body text \(27\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(27\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext320, li.Bodytext320, div.Bodytext320
+	{mso-style-name:"Body text \(32\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(32\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:15.0pt;
+	font-family:"Impact",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+p.Bodytext330, li.Bodytext330, div.Bodytext330
+	{mso-style-name:"Body text \(33\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(33\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;}
+p.Tablecaption30, li.Tablecaption30, div.Tablecaption30
+	{mso-style-name:"Table caption \(3\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(3\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading3110, li.Heading3110, div.Heading3110
+	{mso-style-name:"Heading \#3 \(11\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(11\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext280, li.Bodytext280, div.Bodytext280
+	{mso-style-name:"Body text \(28\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(28\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading420, li.Heading420, div.Heading420
+	{mso-style-name:"Heading \#4 \(2\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#4 \(2\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:4;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading430, li.Heading430, div.Heading430
+	{mso-style-name:"Heading \#4 \(3\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#4 \(3\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:4;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext290, li.Bodytext290, div.Bodytext290
+	{mso-style-name:"Body text \(29\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(29\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:18.55pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext301, li.Bodytext301, div.Bodytext301
+	{mso-style-name:"Body text \(30\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(30\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:18.55pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:9.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext310, li.Bodytext310, div.Bodytext310
+	{mso-style-name:"Body text \(31\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(31\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.45pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Heading3120, li.Heading3120, div.Heading3120
+	{mso-style-name:"Heading \#3 \(12\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(12\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Impact",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+p.Heading3130, li.Heading3130, div.Heading3130
+	{mso-style-name:"Heading \#3 \(13\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(13\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;}
+p.Tablecaption40, li.Tablecaption40, div.Tablecaption40
+	{mso-style-name:"Table caption \(4\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(4\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:9.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+span.Bodytext43
+	{mso-style-name:"Body text \(4\)3";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	position:relative;
+	top:0pt;
+	mso-text-raise:0pt;
+	letter-spacing:0pt;
+	mso-font-width:100%;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext36
+	{mso-style-name:"Body text \(36\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(36\)";
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext36TimesNewRoman
+	{mso-style-name:"Body text \(36\) + Times New Roman\,13 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext3114pt
+	{mso-style-name:"Body text \(31\) + 14 pt\,Not Italic10";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-language:AR-SA;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext34
+	{mso-style-name:"Body text \(34\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(34\)";
+	mso-ansi-font-size:11.5pt;
+	mso-bidi-font-size:11.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext35
+	{mso-style-name:"Body text \(35\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(35\)";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext35Tahoma
+	{mso-style-name:"Body text \(35\) + Tahoma\,12 pt\,Not Bold5";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext17115pt
+	{mso-style-name:"Body text \(17\) + 11\.5 pt\,Not Italic8";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:11.5pt;
+	mso-bidi-font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext37
+	{mso-style-name:"Body text \(37\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(37\)1";
+	mso-ansi-font-size:9.5pt;
+	mso-bidi-font-size:9.5pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext3713pt
+	{mso-style-name:"Body text \(37\) + 13 pt\,Italic16\,Spacing 0 pt13";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext38
+	{mso-style-name:"Body text \(38\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(38\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext3895pt
+	{mso-style-name:"Body text \(38\) + 9\.5 pt\,Not Italic7\,Spacing 0 pt12";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:9.5pt;
+	mso-bidi-font-size:9.5pt;
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext38Spacing2pt
+	{mso-style-name:"Body text \(38\) + Spacing 2 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	letter-spacing:2.0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Heading314
+	{mso-style-name:"Heading \#3 \(14\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(14\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:-.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext1913pt
+	{mso-style-name:"Body text \(19\) + 13 pt\,Italic15";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-language:AR-SA;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext5NotItalic
+	{mso-style-name:"Body text \(5\) + Not Italic";
+	mso-style-unhide:no;
+	mso-style-parent:"Body text \(5\)_";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext510pt
+	{mso-style-name:"Body text \(5\) + 10 pt\,Bold9\,Not Italic6";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext39
+	{mso-style-name:"Body text \(39\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(39\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext400
+	{mso-style-name:"Body text \(40\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(40\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.Bodytext4014pt
+	{mso-style-name:"Body text \(40\) + 14 pt\,Not Italic5";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.Bodytext4014pt1
+	{mso-style-name:"Body text \(40\) + 14 pt1\,Not Italic4";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading315
+	{mso-style-name:"Heading \#3 \(15\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(15\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:-.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext23Spacing0pt3
+	{mso-style-name:"Body text \(23\) + Spacing 0 pt3";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext28pt
+	{mso-style-name:"Body text \(2\) + 8 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext24pt
+	{mso-style-name:"Body text \(2\) + 4 pt\,Italic12";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:4.0pt;
+	mso-bidi-font-size:4.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Picturecaption6
+	{mso-style-name:"Picture caption \(6\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Picture caption \(6\)";
+	mso-ansi-font-size:4.5pt;
+	mso-bidi-font-size:4.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Tablecaption5
+	{mso-style-name:"Table caption \(5\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(5\)1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Tablecaption50
+	{mso-style-name:"Table caption \(5\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext2Bold3
+	{mso-style-name:"Body text \(2\) + Bold3";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2Tahoma10
+	{mso-style-name:"Body text \(2\) + Tahoma10\,4 pt\,Scale 300%";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:4.0pt;
+	mso-bidi-font-size:4.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:0pt;
+	mso-font-width:300%;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext220pt1
+	{mso-style-name:"Body text \(2\) + 20 pt1\,Spacing -1 pt5";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-1.0pt;
+	text-decoration:none;
+	text-underline:none;}
+span.Tablecaption20pt
+	{mso-style-name:"Table caption + 20 pt\,Spacing -1 pt4";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-1.0pt;
+	mso-bidi-language:AR-SA;
+	text-decoration:none;
+	text-underline:none;}
+span.Tablecaption6
+	{mso-style-name:"Table caption \(6\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(6\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Tablecaption6NotItalic
+	{mso-style-name:"Table caption \(6\) + Not Italic\,Spacing 0 pt9";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Tablecaption7
+	{mso-style-name:"Table caption \(7\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(7\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-bidi-language:AR-SA;}
+span.Tablecaption8
+	{mso-style-name:"Table caption \(8\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(8\)";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Heading316
+	{mso-style-name:"Heading \#3 \(16\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(16\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Heading44
+	{mso-style-name:"Heading \#4 \(4\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#4 \(4\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-font-width:66%;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext410
+	{mso-style-name:"Body text \(41\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(41\)1";
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext41TimesNewRoman
+	{mso-style-name:"Body text \(41\) + Times New Roman\,8 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-language:AR-SA;}
+span.Bodytext420
+	{mso-style-name:"Body text \(42\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(42\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext430
+	{mso-style-name:"Body text \(43\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(43\)";
+	mso-ansi-font-size:37.0pt;
+	mso-bidi-font-size:37.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-language:AR-SA;}
+span.Bodytext44
+	{mso-style-name:"Body text \(44\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(44\)";
+	mso-ansi-font-size:17.0pt;
+	mso-bidi-font-size:17.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-ascii-font-family:"Segoe UI";
+	mso-hansi-font-family:"Segoe UI";
+	letter-spacing:3.0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext4218pt
+	{mso-style-name:"Body text \(42\) + 18 pt\,Italic11";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext45
+	{mso-style-name:"Body text \(45\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(45\)";
+	mso-ansi-font-size:7.0pt;
+	mso-bidi-font-size:7.0pt;
+	letter-spacing:-.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext46
+	{mso-style-name:"Body text \(46\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(46\)";
+	mso-ansi-font-size:19.0pt;
+	mso-bidi-font-size:19.0pt;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext47
+	{mso-style-name:"Body text \(47\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(47\)";
+	mso-font-width:70%;
+	mso-bidi-language:AR-SA;}
+span.Bodytext411
+	{mso-style-name:"Body text \(41\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	mso-font-width:100%;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext41TimesNewRoman1
+	{mso-style-name:"Body text \(41\) + Times New Roman1\,12 pt1\,Scale 70%1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-width:70%;
+	mso-bidi-language:AR-SA;}
+span.Bodytext2Tahoma9
+	{mso-style-name:"Body text \(2\) + Tahoma9\,18 pt\,Spacing -2 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:-2.5pt;
+	mso-font-width:100%;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext212pt1
+	{mso-style-name:"Body text \(2\) + 12 pt1\,Bold8";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2David
+	{mso-style-name:"Body text \(2\) + David\,30 pt\,Italic10";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:30.0pt;
+	mso-bidi-font-size:30.0pt;
+	font-family:"David",sans-serif;
+	mso-ascii-font-family:David;
+	mso-hansi-font-family:David;
+	mso-bidi-font-family:David;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext48
+	{mso-style-name:"Body text \(48\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext510
+	{mso-style-name:"Body text \(51\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext520
+	{mso-style-name:"Body text \(52\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(52\)";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext23NotItalic1
+	{mso-style-name:"Body text \(23\) + Not Italic1\,Spacing 0 pt7";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext53
+	{mso-style-name:"Body text \(53\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(53\)";
+	mso-ansi-font-size:7.0pt;
+	mso-bidi-font-size:7.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext49
+	{mso-style-name:"Body text \(49\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(49\)";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext49NotBold
+	{mso-style-name:"Body text \(49\) + Not Bold";
+	mso-style-unhide:no;
+	mso-style-parent:"Body text \(49\)_";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext500
+	{mso-style-name:"Body text \(50\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(50\)";
+	font-family:"Impact",sans-serif;
+	mso-ascii-font-family:Impact;
+	mso-hansi-font-family:Impact;
+	mso-bidi-language:AR-SA;}
+span.Bodytext50Tahoma
+	{mso-style-name:"Body text \(50\) + Tahoma\,9 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-bidi-language:AR-SA;}
+span.Bodytext2Tahoma8
+	{mso-style-name:"Body text \(2\) + Tahoma8\,10 pt2\,Italic9\,Spacing -1 pt3";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:-1.0pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.TablecaptionTahoma
+	{mso-style-name:"Table caption + Tahoma\,15 pt3\,Bold7\,Spacing 0 pt6";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:15.0pt;
+	mso-bidi-font-size:15.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Picturecaption7
+	{mso-style-name:"Picture caption \(7\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Picture caption \(7\)";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Tablecaption9
+	{mso-style-name:"Table caption \(9\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(9\)";
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext2Tahoma6
+	{mso-style-name:"Body text \(2\) + Tahoma6\,7\.5 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:0pt;
+	mso-font-width:100%;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext28pt1
+	{mso-style-name:"Body text \(2\) + 8 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext54
+	{mso-style-name:"Body text \(54\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(54\)";
+	mso-ansi-font-size:4.5pt;
+	mso-bidi-font-size:4.5pt;
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-hansi-font-family:Consolas;
+	mso-bidi-language:AR-SA;}
+span.Bodytext544pt
+	{mso-style-name:"Body text \(54\) + 4 pt\,Italic8";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:4.0pt;
+	mso-bidi-font-size:4.0pt;
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-hansi-font-family:Consolas;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext413
+	{mso-style-name:"Body text \(41\)3";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext370
+	{mso-style-name:"Body text \(37\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:9.5pt;
+	mso-bidi-font-size:9.5pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext295pt
+	{mso-style-name:"Body text \(2\) + 9\.5 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:9.5pt;
+	mso-bidi-font-size:9.5pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2CordiaUPC2
+	{mso-style-name:"Body text \(2\) + CordiaUPC2\,37 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:37.0pt;
+	mso-bidi-font-size:37.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-font-family:CordiaUPC;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext217pt
+	{mso-style-name:"Body text \(2\) + 17 pt\,Italic7";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:17.0pt;
+	mso-bidi-font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-width:100%;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext213pt
+	{mso-style-name:"Body text \(2\) + 13 pt\,Italic6";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext213pt1
+	{mso-style-name:"Body text \(2\) + 13 pt1\,Italic5\,Spacing -1 pt2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-1.5pt;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext2BookmanOldStyle
+	{mso-style-name:"Body text \(2\) + Bookman Old Style\,8 pt1\,Italic4";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Bookman Old Style",serif;
+	mso-ascii-font-family:"Bookman Old Style";
+	mso-hansi-font-family:"Bookman Old Style";
+	mso-bidi-font-family:"Bookman Old Style";
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Heading1
+	{mso-style-name:"Heading \#1_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#1";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	letter-spacing:-1.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext217pt1
+	{mso-style-name:"Body text \(2\) + 17 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:17.0pt;
+	mso-bidi-font-size:17.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext55
+	{mso-style-name:"Body text \(55\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(55\)";
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	letter-spacing:-1.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext56
+	{mso-style-name:"Body text \(56\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(56\)1";
+	mso-ansi-font-size:7.0pt;
+	mso-bidi-font-size:7.0pt;
+	font-family:"Lucida Sans Unicode",sans-serif;
+	mso-ascii-font-family:"Lucida Sans Unicode";
+	mso-hansi-font-family:"Lucida Sans Unicode";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext560
+	{mso-style-name:"Body text \(56\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:7.0pt;
+	mso-bidi-font-size:7.0pt;
+	font-family:"Lucida Sans Unicode",sans-serif;
+	mso-ascii-font-family:"Lucida Sans Unicode";
+	mso-hansi-font-family:"Lucida Sans Unicode";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	text-decoration:underline;
+	text-underline:single;}
+span.Bodytext412
+	{mso-style-name:"Body text \(41\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext23Spacing-2pt
+	{mso-style-name:"Body text \(23\) + Spacing -2 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-2.5pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext57
+	{mso-style-name:"Body text \(57\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(57\)";
+	mso-ansi-font-size:26.0pt;
+	mso-bidi-font-size:26.0pt;
+	font-family:"FrankRuehl",sans-serif;
+	mso-ascii-font-family:FrankRuehl;
+	mso-hansi-font-family:FrankRuehl;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-style:italic;}
+span.Bodytext23Spacing0pt2
+	{mso-style-name:"Body text \(23\) + Spacing 0 pt2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext511
+	{mso-style-name:"Body text \(51\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(51\)1";
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext512
+	{mso-style-name:"Body text \(51\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext58
+	{mso-style-name:"Body text \(58\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(58\)";
+	mso-ansi-font-size:4.0pt;
+	mso-bidi-font-size:4.0pt;
+	mso-font-width:300%;
+	mso-bidi-language:AR-SA;}
+span.Bodytext23Spacing0pt1
+	{mso-style-name:"Body text \(23\) + Spacing 0 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext59
+	{mso-style-name:"Body text \(59\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(59\)";
+	mso-bidi-language:AR-SA;}
+span.Bodytext2Tahoma3
+	{mso-style-name:"Body text \(2\) + Tahoma3\,4 pt2\,Scale 300%1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:4.0pt;
+	mso-bidi-font-size:4.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:0pt;
+	mso-font-width:300%;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext192
+	{mso-style-name:"Body text \(19\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Tablecaption10
+	{mso-style-name:"Table caption \(10\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Table caption \(10\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Heading2
+	{mso-style-name:"Heading \#2_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#2";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext600
+	{mso-style-name:"Body text \(60\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(60\)1";
+	mso-ansi-font-size:24.0pt;
+	mso-bidi-font-size:24.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext601
+	{mso-style-name:"Body text \(60\)";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:24.0pt;
+	mso-bidi-font-size:24.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-ascii-font-family:CordiaUPC;
+	mso-hansi-font-family:CordiaUPC;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	text-decoration:underline;
+	text-underline:single;}
+span.Bodytext60TimesNewRoman
+	{mso-style-name:"Body text \(60\) + Times New Roman\,14 pt1";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	text-decoration:underline;
+	text-underline:single;}
+span.Bodytext28Spacing0pt
+	{mso-style-name:"Body text \(28\) + Spacing 0 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	mso-bidi-language:AR-SA;
+	font-weight:normal;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext480
+	{mso-style-name:"Body text \(48\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(48\)1";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext482
+	{mso-style-name:"Body text \(48\)2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	letter-spacing:0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.Bodytext2813pt
+	{mso-style-name:"Body text \(28\) + 13 pt\,Italic3";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-language:AR-SA;
+	font-weight:normal;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Headingnumber42
+	{mso-style-name:"Heading number \#4 \(2\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading number \#4 \(2\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+span.Bodytext211pt
+	{mso-style-name:"Body text \(2\) + 11 pt\,Italic2";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	font-style:italic;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext610
+	{mso-style-name:"Body text \(61\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(61\)";
+	mso-ansi-font-size:10.5pt;
+	mso-bidi-font-size:10.5pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext6110pt
+	{mso-style-name:"Body text \(61\) + 10 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-bidi-language:AR-SA;}
+span.Bodytext12Spacing0pt
+	{mso-style-name:"Body text \(12\) + Spacing 0 pt";
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:19.0pt;
+	mso-bidi-font-size:19.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.5pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-underline:none;}
+span.Bodytext62
+	{mso-style-name:"Body text \(62\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Body text \(62\)";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-bidi-language:AR-SA;}
+span.Heading317
+	{mso-style-name:"Heading \#3 \(17\)_";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"Heading \#3 \(17\)";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+p.Bodytext311, li.Bodytext311, div.Bodytext311
+	{mso-style-name:"Body text \(31\)1";
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.45pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:VI;
+	font-style:italic;}
+p.Bodytext360, li.Bodytext360, div.Bodytext360
+	{mso-style-name:"Body text \(36\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(36\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:22.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	font-weight:bold;}
+p.Bodytext191, li.Bodytext191, div.Bodytext191
+	{mso-style-name:"Body text \(19\)1";
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:VI;
+	font-weight:bold;}
+p.Bodytext340, li.Bodytext340, div.Bodytext340
+	{mso-style-name:"Body text \(34\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(34\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:11.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading371, li.Heading371, div.Heading371
+	{mso-style-name:"Heading \#3 \(7\)1";
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:Tahoma;}
+p.Bodytext350, li.Bodytext350, div.Bodytext350
+	{mso-style-name:"Body text \(35\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(35\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:20.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext371, li.Bodytext371, div.Bodytext371
+	{mso-style-name:"Body text \(37\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(37\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:9.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext380, li.Bodytext380, div.Bodytext380
+	{mso-style-name:"Body text \(38\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(38\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:16.05pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Heading3140, li.Heading3140, div.Heading3140
+	{mso-style-name:"Heading \#3 \(14\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(14\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	font-weight:bold;}
+p.Bodytext390, li.Bodytext390, div.Bodytext390
+	{mso-style-name:"Body text \(39\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(39\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;}
+p.Bodytext401, li.Bodytext401, div.Bodytext401
+	{mso-style-name:"Body text \(40\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(40\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:15.8pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;
+	font-style:italic;}
+p.Heading3150, li.Heading3150, div.Heading3150
+	{mso-style-name:"Heading \#3 \(15\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(15\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	font-weight:bold;}
+p.Picturecaption60, li.Picturecaption60, div.Picturecaption60
+	{mso-style-name:"Picture caption \(6\)";
+	mso-style-unhide:no;
+	mso-style-link:"Picture caption \(6\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:4.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Tablecaption51, li.Tablecaption51, div.Tablecaption51
+	{mso-style-name:"Table caption \(5\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(5\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Tablecaption60, li.Tablecaption60, div.Tablecaption60
+	{mso-style-name:"Table caption \(6\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(6\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Tablecaption70, li.Tablecaption70, div.Tablecaption70
+	{mso-style-name:"Table caption \(7\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(7\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Tablecaption80, li.Tablecaption80, div.Tablecaption80
+	{mso-style-name:"Table caption \(8\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(8\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:9.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading3160, li.Heading3160, div.Heading3160
+	{mso-style-name:"Heading \#3 \(16\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(16\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+p.Heading440, li.Heading440, div.Heading440
+	{mso-style-name:"Heading \#4 \(4\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#4 \(4\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:4;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-font-width:66%;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext4110, li.Bodytext4110, div.Bodytext4110
+	{mso-style-name:"Body text \(41\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(41\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.75pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:7.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext421, li.Bodytext421, div.Bodytext421
+	{mso-style-name:"Body text \(42\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(42\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext431, li.Bodytext431, div.Bodytext431
+	{mso-style-name:"Body text \(43\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(43\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:37.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext440, li.Bodytext440, div.Bodytext440
+	{mso-style-name:"Body text \(44\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(44\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:17.0pt;
+	font-family:"Segoe UI",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	letter-spacing:3.0pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Bodytext450, li.Bodytext450, div.Bodytext450
+	{mso-style-name:"Body text \(45\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(45\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:7.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-.5pt;}
+p.Bodytext460, li.Bodytext460, div.Bodytext460
+	{mso-style-name:"Body text \(46\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(46\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:19.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-style:italic;}
+p.Bodytext470, li.Bodytext470, div.Bodytext470
+	{mso-style-name:"Body text \(47\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(47\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-font-width:70%;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext481, li.Bodytext481, div.Bodytext481
+	{mso-style-name:"Body text \(48\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(48\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:13.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext5110, li.Bodytext5110, div.Bodytext5110
+	{mso-style-name:"Body text \(51\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(51\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:13.55pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext521, li.Bodytext521, div.Bodytext521
+	{mso-style-name:"Body text \(52\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(52\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:9.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext530, li.Bodytext530, div.Bodytext530
+	{mso-style-name:"Body text \(53\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(53\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:7.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext490, li.Bodytext490, div.Bodytext490
+	{mso-style-name:"Body text \(49\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(49\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:13.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Bodytext501, li.Bodytext501, div.Bodytext501
+	{mso-style-name:"Body text \(50\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(50\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Impact",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Picturecaption70, li.Picturecaption70, div.Picturecaption70
+	{mso-style-name:"Picture caption \(7\)";
+	mso-style-unhide:no;
+	mso-style-link:"Picture caption \(7\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;}
+p.Tablecaption90, li.Tablecaption90, div.Tablecaption90
+	{mso-style-name:"Table caption \(9\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(9\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:7.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext540, li.Bodytext540, div.Bodytext540
+	{mso-style-name:"Body text \(54\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(54\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:4.5pt;
+	font-family:Consolas;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Heading10, li.Heading10, div.Heading10
+	{mso-style-name:"Heading \#1";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#1_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:1;
+	background:white;
+	font-size:18.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-1.0pt;}
+p.Bodytext550, li.Bodytext550, div.Bodytext550
+	{mso-style-name:"Body text \(55\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(55\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	letter-spacing:-1.5pt;}
+p.Bodytext561, li.Bodytext561, div.Bodytext561
+	{mso-style-name:"Body text \(56\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(56\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:7.0pt;
+	font-family:"Lucida Sans Unicode",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+p.Bodytext570, li.Bodytext570, div.Bodytext570
+	{mso-style-name:"Body text \(57\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(57\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:26.0pt;
+	font-family:"FrankRuehl",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	font-style:italic;}
+p.Bodytext580, li.Bodytext580, div.Bodytext580
+	{mso-style-name:"Body text \(58\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(58\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:4.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-font-width:300%;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext590, li.Bodytext590, div.Bodytext590
+	{mso-style-name:"Body text \(59\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(59\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Tablecaption100, li.Tablecaption100, div.Tablecaption100
+	{mso-style-name:"Table caption \(10\)";
+	mso-style-unhide:no;
+	mso-style-link:"Table caption \(10\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Heading20, li.Heading20, div.Heading20
+	{mso-style-name:"Heading \#2";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#2_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:2;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;}
+p.Bodytext6010, li.Bodytext6010, div.Bodytext6010
+	{mso-style-name:"Body text \(60\)1";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(60\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:24.0pt;
+	font-family:"CordiaUPC",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.Headingnumber420, li.Headingnumber420, div.Headingnumber420
+	{mso-style-name:"Heading number \#4 \(2\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading number \#4 \(2\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;}
+p.Bodytext611, li.Bodytext611, div.Bodytext611
+	{mso-style-name:"Body text \(61\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(61\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.45pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	font-size:10.5pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Bodytext620, li.Bodytext620, div.Bodytext620
+	{mso-style-name:"Body text \(62\)";
+	mso-style-unhide:no;
+	mso-style-link:"Body text \(62\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:12.0pt;
+	mso-pagination:none;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.Heading3170, li.Heading3170, div.Heading3170
+	{mso-style-name:"Heading \#3 \(17\)";
+	mso-style-unhide:no;
+	mso-style-link:"Heading \#3 \(17\)_";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:none;
+	mso-outline-level:3;
+	background:white;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-fareast-font-family:Tahoma;
+	font-weight:bold;}
+span.msoIns
+	{mso-style-type:export-only;
+	mso-style-name:"";
+	text-decoration:underline;
+	text-underline:single;
+	color:teal;}
+span.msoDel
+	{mso-style-type:export-only;
+	mso-style-name:"";
+	text-decoration:line-through;
+	color:red;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;
+	mso-ascii-font-family:Tahoma;
+	mso-fareast-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0cm 2.0cm 1.0cm 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:595.3pt 841.9pt;
+	margin:1.0cm 2.0cm 1.0cm 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:761875382;
+	mso-list-template-ids:-2006021714;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}

@@ -1,0 +1,17 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Góp ý nội dung
+{% endblock %}
+
+{% block content %}
+<h2>Nhập nội dung</h2>
+<form action="." method="POST">
+
+    {% csrf_token %}
+    {{form}}
+
+    <br>
+    	<input style="margin-left: 350px" class="btn btn-action pull-left" id="btn" type="submit" value="Đăng ký"/>
+</form>
+{% endblock %}

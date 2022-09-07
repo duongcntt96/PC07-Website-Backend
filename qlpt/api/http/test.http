@@ -1,0 +1,23 @@
+
+
+
+POST http://localhost:8000/api/token/ HTTP/1.1
+content-type: application/json
+Authorization: token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTYzMDY1NTcyOCwianRpIjoiZTIzNDE1MTFlNDEzNDE2OGJmNjQzOWE2OWE4ODRjOTAiLCJ1c2VyX2lkIjoxLCJuYW1lIjoiZHVvbmdjbnR0OTYifQ.OQyPNUKYfDwl_SQ3P65boFpq3zbeZOxuonasK_g0LWE
+
+{
+    "username": "duongcntt96",
+    "password": "19961996"
+}
+
+##################################################################
+
+POST http://localhost:8000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "johnqf2",
+    "password": "19961996",
+    "is_superuser": false,
+    "is_staff": false
+}

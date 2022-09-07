@@ -1,0 +1,168 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+  {{ info.ten }} - Thông tin chi tiết
+{% endblock %}
+
+{% block content %}
+<!-- THÔNG TIN CHI TIẾT -->
+<div class="row">
+<h3><a href="edit">{{ info.ten }}</a></h3>
+</div>
+<div class="row">
+  <div class="col-sm-5">
+    <img style="max-width: 350px; border-radius: 8px; box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5); "
+    src="/{% if info.hinh_anh %}{{ info.hinh_anh }}{% else %}static/images/upload/default.jpg{% endif %}" alt="chưa có hình ảnh">
+  </div>
+  <div class="col-sm-7">
+    <table>
+      <tbody>
+      <tr>
+        <td>Chủng loại:</td><td>{{ info.chung_loai.ten }}</td>
+      </tr>
+      <tr>
+        <td>Nhãn hiệu:</td><td>{{ info.nhan_hieu }}</td>
+      </tr>
+      {% if info.bien_so %}
+        <tr>
+          <td>Biển số:</td><td><b>{{ info.bien_so }}<b></td>
+        </tr>
+      {% endif %}
+
+      <tr>
+        <td>Số khung:</td><td>{{ info.so_khung }} </td>
+      </tr>
+
+      <tr>
+        <td>Số máy:</td><td>{{ info.so_may }} </td>
+      </tr>
+
+      <tr>
+        <td>Số động cơ:</td><td>{{ info.so_dong_co }} </td>
+      </tr>
+
+      <tr>
+        <td>Số lượng:</td><td>{{ info.so_luong }} {{ info.don_vi_tinh }}</td>
+      </tr>
+      <tr>
+        <td>Nơi bố trí:</td><td><a href="{% url 'phuongtien:index' %}{{ info.noi_bo_tri.id }}">{{ info.noi_bo_tri }}</a></td>
+      </tr>
+      <tr>
+        <td>Quản lý:</td><td>{{ info.nguoi_quan_ly }}</td>
+      </tr>
+      <tr>
+        <td>Trạng thái:</td><td>{{ info.trang_thai }}</td>
+      </tr>
+      <tr>
+        <td>Chất lượng:</td><td>{{ info.chat_luong }}</td>
+      </tr>
+      <tr>
+        <td>Nguồn cấp:</td><td>{{ info.nguon_cap }}</td>
+      </tr>
+      <tr>
+        <td>Thời gian nhận:</td><td>{{ info.thoi_gian_nhan }}</td>
+      </tr>
+      <tr>
+        <td>Thời gian sản xuất:</td><td>{{ info.thoi_gian_san_xuat }}</td>
+      </tr>
+      <tr>
+        <td>Thời gian đưa vào hoạt động:</td><td>{{ info.thoi_gian_dua_vao_hoat_dong }}</td>
+      </tr>
+      <tr>
+        <td>Phương tiện đi kèm:</td><td>{{ info.phuong_tien_set.all|length }} <a href="add" title="">Thêm</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Định mức nhiên liệu -->
+{% if info.dinh_muc_nhien_lieu_set.all|length > 0 %}
+<div class="row">
+  <h3>Định mức nhiên liệu</h3>
+  {% for dinh_muc in info.dinh_muc_nhien_lieu_set.all %}
+    <p> - Định mức nổ máy tại chỗ: <b>{{ dinh_muc.dinh_muc_1 }}</b> lít/phút</p>
+    <p> - Định mức chạy đường dài: <b>{{ dinh_muc.dinh_muc_2 }}</b> lít/100km</p>
+    <p> - Định mức vận hành bơm/cẩu/thang: <b>{{ dinh_muc.dinh_muc_3 }}</b> lít/phút</p>
+  {% endfor %}
+  </p>
+</div>
+{% endif %}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Nhật ký hành trình -->
+{% if info.nhat_trinh_xe_set.all|length > 0 %}
+<div class="row">
+  <h3>Định mức nhiên liệu</h3>
+  {% for nhat_trinh in info.nhat_trinh_xe_set.all %}
+    <div class="item">
+      <p>
+        <span> Ngày {{ nhat_trinh.thoi_gian }} </span>
+        <span> {{ nhat_trinh.noi_dung_cong_tac }}</span>
+        tại
+        <span> {{ nhat_trinh.noi_den_cong_tac }}</span>
+      </p>
+      <p>
+      <span> {{ nhat_trinh.km_luc_ve }}</span>
+      -
+      <span> {{ nhat_trinh.km_luc_di }}</span>
+      =
+      <span id="km{{ forloop.counter }}"></span>
+      </p>
+    </div>
+        <script>
+        $(document).ready(function(){
+          $("#km{{ forloop.counter }}").html({{ nhat_trinh.km_luc_ve }}-{{ nhat_trinh.km_luc_di }});
+        });
+      </script>
+  {% endfor %}
+  </p>
+</div>
+{% endif %}
+
+
+
+
+
+<!-- PHƯƠNG TIỆN THEO XE -->
+{% if info.phuong_tien_set.all|length > 0 %}
+<div class="row">
+<h3>Phương tiện bố trí tại {{ info.ten }}</h3>
+</div>
+  <table>
+    <tr style="font-weight: bold;">
+      <td><center>Stt</center></td>
+      <td class="col-sm-3">Chủng loại</td>
+      <td class="col-sm-3">Tên phương tiện</td>
+      <td class="col-sm-2"><center>Số lượng</center></td>
+      <td class="col-sm-2"><center>Đvt</center></td>
+      <td class="col-sm-2"><center>Chất lượng</center></td>
+    </tr>
+    {% for pt in info.ordered_by_chung_loai %}
+    <tr>
+      <td><center><span class="mycount"></span></center></td>
+      <td style="padding: 0px 10px" >
+        <a href="{% url 'phuongtien:index' %}{{pt.id}}">{{ pt.chung_loai.ten }}</a>
+      </td>
+      <td style="padding: 0px 10px" >
+        <a href="{% url 'phuongtien:index' %}{{pt.id}}"
+          {% if pt.phuong_tien_set.all|length > 0 %}style="color:red"{% endif %}>{{ pt.ten }}
+        </a>
+      </td>
+      <td><center>{{ pt.so_luong }}</center></td>
+      <td><center>{{ pt.don_vi_tinh }}</center></td>
+      <td><center>{{ pt.chat_luong }}</center></td>
+    </tr>
+    {% endfor %}
+  </table>
+{% endif %}
+<!-- HƯỚNG DẪN SỬ DỤNG -->
+<div class="row">
+  <h3>Hướng dẫn sử dụng</h3>
+</div>
+<div class="col-sm-12">
+  <div class="col-md-4 panel"> Đang phát triển</div>
+</div>
+{% endblock %}

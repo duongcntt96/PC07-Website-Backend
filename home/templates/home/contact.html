@@ -1,0 +1,38 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+Contact page.
+{% endblock %}
+
+{% block content %}
+
+
+<!-- Sidebar -->
+<aside class="col-sm-10 sidebar sidebar-right" >
+	<div class="panel contact">
+		<h3>Góp ý cho tôi</h3>
+		<ul>
+			<li><i class="fa fa-flag"></i> Trung úy Đặng Bá Dương</li>
+			<li><i class="fa fa-phone"></i>   0965.881.681</li>
+			<li>
+				<a href="mailto:duong.ht96@gmail.com"><i class="fa fa-envelope-o"></i> duong.ht96@gmail.com</a>
+			</li>
+			<li>
+				<form action="/feedback/" method="post" accept-charset="utf-8">
+					 {% csrf_token %}
+					<div class="row">
+						<div class="col-sm-12">
+							<textarea placeholder="Type your message here..." class="form-control" rows="9"></textarea>
+						</div>
+					</div>
+					<br>
+					<input type="submit" class="btn btn-action pull-left" id="btn" value="Gửi"/>
+				</form>
+				
+			</li>
+	   </ul> 
+	</div>
+</aside>
+<!-- /Sidebar -->
+
+{% endblock %}
