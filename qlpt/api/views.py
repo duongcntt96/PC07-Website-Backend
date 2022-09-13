@@ -1,9 +1,12 @@
 from datetime import datetime
 from rest_framework import viewsets
+from rest_framework.views import APIView
 from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
 #  For custom allow API
 from rest_framework import mixins
+
+from qlpt.utils import text_to_mp3
 
 # Import Serializer
 from .serializers import Chung_loaiSerializer, Danh_muc_kho_Serializer, Danh_muc_nguon_cap_Serializer, Danh_muc_phuong_tien_Serializer, Chi_tiet_phieu_nhap_Serializer, Phieu_nhap_Serializer
@@ -15,6 +18,12 @@ from rest_framework.response import Response
 from rest_framework import status
 
 from qlpt.models import Danh_muc_kho, Danh_muc_nguon_cap, Danh_muc_phuong_tien, Chi_tiet_phieu_nhap, Phieu_nhap, Chung_loai
+
+
+class Text_to_speak(APIView):
+    def get(self, request):
+        text = request.query_params.get('text')
+        return Response({'data': text_to_mp3(text)})
 
 
 class Danh_muc_kho_viewSet(viewsets.ModelViewSet):
