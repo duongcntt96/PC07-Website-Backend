@@ -5,7 +5,7 @@ from wsgiref.handlers import format_date_time
 from django.db import models
 from numpy import maximum
 
-from qlpt.utils import doc_replace
+# from qlpt.utils import doc_replace
 
 
 class Chung_loai(models.Model):
@@ -121,24 +121,24 @@ class Phieu_nhap(models.Model):
     def __str__(self):
         return self.thoi_gian.strftime("%d/%m/%Y")
 
-    def printFile(self):
-        import docx
-        doc = docx.Document("E:/C20-HD.docx")
-        print(self.thoi_gian.strftime("%d/%m/%Y"))
-        doc_replace(doc, "thoi_gian", self.thoi_gian.strftime("%d/%m/%Y"))
-        doc_replace(doc, "kho_nhap", self.kho_nhap.ten)
-        table = doc.tables[1]
-        chitiet = self.chi_tiet_phieu_nhap_set.all()
-        print(chitiet)
-        for item in chitiet:
-            cells = table.add_row().cells
-            cells[1].text = item.phuong_tien.ten
-            cells[2].text = str(item.so_luong)
-            cells[3].text = str(item.nam_cap)
-            cells[4].text = str(item.nguyen_gia)
-            insertion_row = table.rows[1]._tr
-            insertion_row.addnext(table.rows[-1]._tr)
-        doc.save('E:/out.docx')
+    # def printFile(self):
+    #     import docx
+    #     doc = docx.Document("E:/C20-HD.docx")
+    #     print(self.thoi_gian.strftime("%d/%m/%Y"))
+    #     doc_replace(doc, "thoi_gian", self.thoi_gian.strftime("%d/%m/%Y"))
+    #     doc_replace(doc, "kho_nhap", self.kho_nhap.ten)
+    #     table = doc.tables[1]
+    #     chitiet = self.chi_tiet_phieu_nhap_set.all()
+    #     print(chitiet)
+    #     for item in chitiet:
+    #         cells = table.add_row().cells
+    #         cells[1].text = item.phuong_tien.ten
+    #         cells[2].text = str(item.so_luong)
+    #         cells[3].text = str(item.nam_cap)
+    #         cells[4].text = str(item.nguyen_gia)
+    #         insertion_row = table.rows[1]._tr
+    #         insertion_row.addnext(table.rows[-1]._tr)
+    #     doc.save('E:/out.docx')
 
 
 class Chi_tiet_phieu_nhap(models.Model):
