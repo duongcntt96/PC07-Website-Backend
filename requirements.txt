@@ -45,3 +45,4 @@ urllib3==1.26.3
 whichcraft==0.6.1
 whitenoise==5.3.0
 numpy
+docx
