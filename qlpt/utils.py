@@ -48,4 +48,4 @@ def speak(text):
 # doc = docx.Document("C:/Users/ADMIN/Desktop/cv.docx")
 # for p in doc.paragraphs:
 #     speak(p.text)
-speak('Sơ vơ đã bật')
+# speak('Sơ vơ đã bật')
