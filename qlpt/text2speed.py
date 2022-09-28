@@ -13,4 +13,4 @@ def speak(text):
     bot.runAndWait()
 
 
-speak('Bây giờ là 1 giờ 42 phút')
+# speak('Bây giờ là 1 giờ 42 phút')
