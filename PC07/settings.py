@@ -1,3 +1,4 @@
+import dj_database_url
 from pathlib import Path
 import os
 from datetime import timedelta
@@ -120,7 +121,13 @@ STATIC_URL = '/static/'
 #     os.path.join(BASE_DIR, "static"),
 # ]
 
-STATIC_ROOT = BASE_DIR / 'static'
+# STATIC_ROOT = BASE_DIR / 'static'
+
+pro_db = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(pro_db)
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
