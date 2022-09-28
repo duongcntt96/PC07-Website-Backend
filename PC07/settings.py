@@ -70,22 +70,22 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'PC07.wsgi.application'
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'csdl_pccc',
-        'USER': 'root',
-        'HOST': 'localhost',
-        'PASSWORD': '19961996',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'csdl_pccc',
+#         'USER': 'root',
+#         'HOST': 'localhost',
+#         'PASSWORD': '19961996',
+#     }
+# }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
