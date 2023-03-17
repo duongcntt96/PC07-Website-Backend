@@ -109,6 +109,7 @@ class Phieu_nhap(models.Model):
         Danh_muc_kho, verbose_name='Kho nhập', related_name='nhan', on_delete=models.RESTRICT, default=1)
     nguon_cap = models.ForeignKey(
         Danh_muc_nguon_cap, verbose_name='Nguồn cấp', on_delete=models.RESTRICT, null=True, blank=True)
+    quyetdinh = models.CharField(max_length=200, null=True, blank=True)
     note = models.CharField(max_length=500, null=True, blank=True)
 
     success = models.BooleanField(default=False)
@@ -149,7 +150,7 @@ class Chi_tiet_phieu_nhap(models.Model):
     so_luong = models.IntegerField(verbose_name='Số lượng',)
     from django.core.validators import MaxValueValidator, MinValueValidator
     nam_cap = models.PositiveIntegerField(verbose_name='Năm cấp', validators=[
-        MinValueValidator(2000), MaxValueValidator(2022)], null=True, blank=True)
+        MinValueValidator(2000), MaxValueValidator(2023)], null=True, blank=True)
     nguon_cap = models.ForeignKey(
         Danh_muc_nguon_cap, verbose_name='Nguồn cấp', on_delete=models.RESTRICT, null=True, blank=True)
     nguyen_gia = models.PositiveIntegerField(
@@ -175,6 +176,17 @@ class Chi_tiet_phieu_nhap(models.Model):
 #             else:
 #                 raise Exception(
 #                     'Không hợp lệ !!! Số lượng xuất lớn hơn số lượng hiện có')
+
+
+class SoQuanLy(models.Model):
+    phuongTien = models.ForeignKey(
+        Danh_muc_phuong_tien, verbose_name="Phương tiện", on_delete=models.RESTRICT)
+    bienSo = models.CharField(verbose_name="Biển số", max_length=12)
+    soKhung = models.CharField(verbose_name="Số khung", max_length=30)
+    soMay = models.CharField(verbose_name="Số máy", max_length=30)
+    soDongCo = models.CharField(verbose_name="Số động cơ", max_length=30)
+    serial = models.CharField(
+        verbose_name="Biển số/Số máy/Số động cơ/...", max_length=100)
 
 
 class Sua_chua(models.Model):

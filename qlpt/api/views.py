@@ -121,7 +121,7 @@ class Phieu_nhap_ViewSet(viewsets.ModelViewSet):
     serializer_class = Phieu_nhap_Serializer
     pagination_class = CustomPagination
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
-    filterset_fields = ['kho_nhap', 'kho_xuat', 'thoi_gian', 'nguon_cap', 'success',
+    filterset_fields = ['kho_nhap', 'kho_xuat', 'thoi_gian', 'nguon_cap', 'quyetdinh', 'success',
                         'chi_tiet_phieu_nhap__phuong_tien', 'chi_tiet_phieu_nhap__nguon_cap']
     search_fields = ["ten", "chung_loai__ten"]
     # def queryset(self):
@@ -136,8 +136,13 @@ class Phieu_nhap_ViewSet(viewsets.ModelViewSet):
             start = '2000-01-01'
         if (end == None or end == ''):
             end = datetime.now().date()
+
+        # quyetdinhisnull = self.request.query_params.get('quyetdinh__isnull')
+        print(self.request.query_params.get('quyetdinh__isnull'))
         queryset = Phieu_nhap.objects.filter(
-            thoi_gian__gte=start, thoi_gian__lte=end)
+            thoi_gian__gte=start, thoi_gian__lte=end,
+            # quyetdinh__isnull=True
+        )
         return queryset
 
 
