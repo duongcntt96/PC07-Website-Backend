@@ -1,7 +1,10 @@
+import pyperclip
+
+
 def speak(text):
     import pyttsx3
     bot = pyttsx3.init()
-    bot.setProperty('rate', 125)
+    bot.setProperty('rate', 150)
     bot.setProperty('volume', 1.0)
     voices = bot.getProperty('voices')
     bot.setProperty('voice', voices[4].id)
@@ -13,4 +16,7 @@ def speak(text):
     bot.runAndWait()
 
 
-# speak('Bây giờ là 1 giờ 42 phút')
+data = pyperclip.paste()
+
+
+speak(data + 'Bây giờ là 1 giờ 42 phút')
